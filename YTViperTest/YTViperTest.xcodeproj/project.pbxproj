@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		47BAAE7327BD47EE00755CB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BAAE7227BD47EE00755CB3 /* AppDelegate.swift */; };
 		47BAAE7527BD47EE00755CB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BAAE7427BD47EE00755CB3 /* SceneDelegate.swift */; };
-		47BAAE7727BD47EE00755CB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BAAE7627BD47EE00755CB3 /* ViewController.swift */; };
+		47BAAE7727BD47EE00755CB3 /* YTRootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BAAE7627BD47EE00755CB3 /* YTRootVC.swift */; };
 		47BAAE7A27BD47EE00755CB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47BAAE7827BD47EE00755CB3 /* Main.storyboard */; };
 		47BAAE7C27BD47EF00755CB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47BAAE7B27BD47EF00755CB3 /* Assets.xcassets */; };
 		47BAAE7F27BD47EF00755CB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47BAAE7D27BD47EF00755CB3 /* LaunchScreen.storyboard */; };
 		47BAAE8A27BD47EF00755CB3 /* YTViperTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BAAE8927BD47EF00755CB3 /* YTViperTestTests.swift */; };
 		47BAAE9427BD47EF00755CB3 /* YTViperTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BAAE9327BD47EF00755CB3 /* YTViperTestUITests.swift */; };
 		47BAAE9627BD47EF00755CB3 /* YTViperTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BAAE9527BD47EF00755CB3 /* YTViperTestUITestsLaunchTests.swift */; };
+		47BAAEA327BD485900755CB3 /* YTPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BAAEA227BD485900755CB3 /* YTPresenter.swift */; };
+		47BAAEA527BD486200755CB3 /* YTinteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BAAEA427BD486200755CB3 /* YTinteractor.swift */; };
+		47BAAEA927BD488F00755CB3 /* YTRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BAAEA827BD488F00755CB3 /* YTRouter.swift */; };
+		47BAAEAB27BD489600755CB3 /* YTEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BAAEAA27BD489600755CB3 /* YTEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,7 @@
 		47BAAE6F27BD47EE00755CB3 /* YTViperTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTViperTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47BAAE7227BD47EE00755CB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47BAAE7427BD47EE00755CB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		47BAAE7627BD47EE00755CB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47BAAE7627BD47EE00755CB3 /* YTRootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTRootVC.swift; sourceTree = "<group>"; };
 		47BAAE7927BD47EE00755CB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47BAAE7B27BD47EF00755CB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47BAAE7E27BD47EF00755CB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		47BAAE8F27BD47EF00755CB3 /* YTViperTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTViperTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47BAAE9327BD47EF00755CB3 /* YTViperTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTViperTestUITests.swift; sourceTree = "<group>"; };
 		47BAAE9527BD47EF00755CB3 /* YTViperTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTViperTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		47BAAEA227BD485900755CB3 /* YTPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTPresenter.swift; sourceTree = "<group>"; };
+		47BAAEA427BD486200755CB3 /* YTinteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTinteractor.swift; sourceTree = "<group>"; };
+		47BAAEA827BD488F00755CB3 /* YTRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTRouter.swift; sourceTree = "<group>"; };
+		47BAAEAA27BD489600755CB3 /* YTEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +108,12 @@
 			isa = PBXGroup;
 			children = (
 				47BAAE7227BD47EE00755CB3 /* AppDelegate.swift */,
-				47BAAE7427BD47EE00755CB3 /* SceneDelegate.swift */,
-				47BAAE7627BD47EE00755CB3 /* ViewController.swift */,
-				47BAAE7827BD47EE00755CB3 /* Main.storyboard */,
-				47BAAE7B27BD47EF00755CB3 /* Assets.xcassets */,
 				47BAAE7D27BD47EF00755CB3 /* LaunchScreen.storyboard */,
-				47BAAE8027BD47EF00755CB3 /* Info.plist */,
+				47BAAE7827BD47EE00755CB3 /* Main.storyboard */,
+				47BAAE7427BD47EE00755CB3 /* SceneDelegate.swift */,
+				47BAAEAD27BD48B900755CB3 /* Support */,
+				47BAAEAC27BD48AC00755CB3 /* Viper */,
+				47BAAE7627BD47EE00755CB3 /* YTRootVC.swift */,
 			);
 			path = YTViperTest;
 			sourceTree = "<group>";
@@ -125,6 +133,26 @@
 				47BAAE9527BD47EF00755CB3 /* YTViperTestUITestsLaunchTests.swift */,
 			);
 			path = YTViperTestUITests;
+			sourceTree = "<group>";
+		};
+		47BAAEAC27BD48AC00755CB3 /* Viper */ = {
+			isa = PBXGroup;
+			children = (
+				47BAAEAA27BD489600755CB3 /* YTEntity.swift */,
+				47BAAEA827BD488F00755CB3 /* YTRouter.swift */,
+				47BAAEA427BD486200755CB3 /* YTinteractor.swift */,
+				47BAAEA227BD485900755CB3 /* YTPresenter.swift */,
+			);
+			path = Viper;
+			sourceTree = "<group>";
+		};
+		47BAAEAD27BD48B900755CB3 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				47BAAE8027BD47EF00755CB3 /* Info.plist */,
+				47BAAE7B27BD47EF00755CB3 /* Assets.xcassets */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +286,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47BAAE7727BD47EE00755CB3 /* ViewController.swift in Sources */,
+				47BAAEA527BD486200755CB3 /* YTinteractor.swift in Sources */,
+				47BAAEAB27BD489600755CB3 /* YTEntity.swift in Sources */,
+				47BAAEA927BD488F00755CB3 /* YTRouter.swift in Sources */,
+				47BAAE7727BD47EE00755CB3 /* YTRootVC.swift in Sources */,
+				47BAAEA327BD485900755CB3 /* YTPresenter.swift in Sources */,
 				47BAAE7327BD47EE00755CB3 /* AppDelegate.swift in Sources */,
 				47BAAE7527BD47EE00755CB3 /* SceneDelegate.swift in Sources */,
 			);
