@@ -7,11 +7,18 @@
 
 import UIKit
 
+// Talks to -> presenter
+// class, protocol
+// VierController
+
+protocol YTAnyVC {
+
+}
+
 class YTRootVC: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
   }
 
 
@@ -19,10 +26,10 @@ class YTRootVC: UIViewController {
 
 
 
+extension YTRootVC: YTAnyVC {
 
-// Talks to -> presenter
-//class, protocol
-// 
+}
+
 
 
 

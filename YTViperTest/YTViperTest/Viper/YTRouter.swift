@@ -6,3 +6,18 @@
 //
 
 import Foundation
+
+protocol YTCommonRouter {
+  static func startExecution() -> YTCommonRouter
+}
+
+class YTCryptoRouter: YTCommonRouter {
+  static func startExecution() -> YTCommonRouter {
+    let router = YTCryptoRouter()
+    
+    
+    return router
+  }
+  
+  
+}
